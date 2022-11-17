@@ -1,0 +1,21 @@
+GET http://localhost:3001/todos
+
+
+###
+
+POST http://localhost:3001/todo/new 
+
+
+Content-Type: application/json
+{
+     "text":"this is  my first  todo app" 
+} 
+###
+ DELETE http://localhost:3001/todo/delete/6374dacf81e14dbcc9419914
+
+
+###
+
+PUT http://localhost:3001/todo/complete/6374dd4bca73d1d363efc1d2
+
+
